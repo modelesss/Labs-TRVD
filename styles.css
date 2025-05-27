@@ -1,137 +1,137 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
-    color: #333;
+    font-family: Arial, sans-serif; /* Основний шрифт сторінки */
+    margin: 0; /* Видалення зовнішніх відступів */
+    padding: 20px; /* Внутрішній відступ з усіх боків */
+    background-color: #f0f0f0; /* Світло-сірий фон сторінки */
+    color: #333; /* Темно-сірий колір тексту */
 }
 
 header {
-    background-color: #2c3e50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    background-color: #2c3e50; /* Темний фон шапки */
+    color: white; /* Білий текст */
+    padding: 20px; /* Внутрішній відступ */
+    text-align: center; /* Центрування тексту */
+    border-radius: 5px; /* Закруглені кути */
+    margin-bottom: 20px; /* Відступ знизу */
 }
 
 nav {
-    background-color: #3498db;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    background-color: #3498db; /* Синій фон навігації */
+    padding: 10px; /* Внутрішній відступ */
+    text-align: center; /* Центрування тексту/посилань */
+    margin-bottom: 20px; /* Відступ знизу */
+    border-radius: 5px; /* Закруглені кути */
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+    color: white; /* Білий колір посилань */
+    text-decoration: none; /* Без підкреслення */
+    margin: 0 10px; /* Горизонтальні відступи між посиланнями */
 }
 
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
+    max-width: 1200px; /* Максимальна ширина */
+    margin: 0 auto; /* Центрування контейнера */
+    display: grid; /* Встановлення сітки */
+    grid-template-columns: 2fr 1fr; /* Сітка: 2 частини — основний вміст, 1 частина — сайдбар */
+    gap: 20px; /* Відступ між елементами сітки */
 }
 
 article {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white; /* Білий фон статті */
+    padding: 20px; /* Внутрішній відступ */
+    border-radius: 5px; /* Закруглені кути */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Легка тінь */
 }
 
 aside {
-    background-color: #ecf0f1;
-    padding: 20px;
-    border-radius: 5px;
+    background-color: #ecf0f1; /* Світло-сірий фон */
+    padding: 20px; /* Внутрішній відступ */
+    border-radius: 5px; /* Закруглені кути */
 }
 
 section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    grid-column: 1 / -1;
+    background-color: white; /* Білий фон секції */
+    padding: 20px; /* Внутрішній відступ */
+    border-radius: 5px; /* Закруглені кути */
+    grid-column: 1 / -1; /* Займає всю ширину сітки */
 }
 
 figure {
-    margin: 0;
-    text-align: center;
+    margin: 0; /* Без зовнішніх відступів */
+    text-align: center; /* Центрування вмісту */
 }
 
 figure img {
-    max-width: 100%;
-    border-radius: 5px;
+    max-width: 100%; /* Зображення не виходить за межі контейнера */
+    border-radius: 5px; /* Закруглені кути */
 }
 
 figcaption {
-    font-style: italic;
-    color: #666;
-    margin-top: 5px;
+    font-style: italic; /* Курсивний стиль підпису */
+    color: #666; /* Світло-сірий колір */
+    margin-top: 5px; /* Відступ зверху */
 }
 
 details {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 0;
+    background-color: #f9f9f9; /* Світлий фон */
+    padding: 10px; /* Внутрішній відступ */
+    border-radius: 5px; /* Закруглені кути */
+    margin: 10px 0; /* Вертикальні відступи */
 }
 
 summary {
-    cursor: pointer;
-    color: #2c3e50;
-    font-weight: bold;
+    cursor: pointer; /* Курсор у вигляді руки */
+    color: #2c3e50; /* Темно-синій текст */
+    font-weight: bold; /* Жирний текст */
 }
 
 audio, video {
-    width: 100%;
-    margin: 10px 0;
+    width: 100%; /* Ширина на всю доступну область */
+    margin: 10px 0; /* Вертикальні відступи */
 }
 
 canvas {
-    border: 1px solid #ddd;
-    width: 100%;
-    height: 200px;
+    border: 1px solid #ddd; /* Сіра рамка */
+    width: 100%; /* Повна ширина */
+    height: 200px; /* Висота області для малювання */
 }
 
 dialog {
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    padding: 20px;
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закруглені кути */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* Тінь для об'єму */
+    padding: 20px; /* Внутрішній відступ */
 }
 
 mark {
-    background-color: #f1c40f;
-    padding: 2px 5px;
-    border-radius: 3px;
+    background-color: #f1c40f; /* Жовтий фон */
+    padding: 2px 5px; /* Внутрішні відступи */
+    border-radius: 3px; /* Трохи закруглені кути */
 }
 
 meter, progress {
-    width: 100%;
-    margin: 10px 0;
+    width: 100%; /* Повна ширина */
+    margin: 10px 0; /* Вертикальні відступи */
 }
 
 picture img {
-    max-width: 100%;
-    border-radius: 5px;
+    max-width: 100%; /* Зображення підлаштовується під ширину */
+    border-radius: 5px; /* Закруглені кути */
 }
 
 input {
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin: 10px 0;
+    padding: 5px; /* Внутрішній відступ */
+    border: 1px solid #ddd; /* Сіра рамка */
+    border-radius: 4px; /* Закруглені кути */
+    margin: 10px 0; /* Вертикальні відступи */
 }
 
 footer {
-    background-color: #2c3e50;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 20px;
+    background-color: #2c3e50; /* Темний фон підвалу */
+    color: white; /* Білий текст */
+    padding: 15px; /* Внутрішній відступ */
+    text-align: center; /* Центрування тексту */
+    border-radius: 5px; /* Закруглені кути */
+    margin-top: 20px; /* Відступ зверху */
 }
