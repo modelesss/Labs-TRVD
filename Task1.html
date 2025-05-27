@@ -1,48 +1,53 @@
-<!DOCTYPE html>
-<html lang="uk">
+<!DOCTYPE html> <!-- Оголошення типу документа HTML5 -->
+<html lang="uk"> <!-- Початок HTML-документа з мовою українською -->
 <head>
-    <meta charset="UTF-8">
-    <title>HTML5 Теги</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Встановлення кодування символів -->
+    <title>HTML5 Теги</title> <!-- Заголовок сторінки у вкладці браузера -->
+    <link rel="stylesheet" href="styles.css"> <!-- Підключення зовнішнього CSS-файлу -->
 </head>
 <body>
-    <header>Заголовок сторінки</header>
-    <nav>Навігація</nav>
-    <main>
-        <article>Стаття</article>
-        <aside>Бічна панель</aside>
-        <section>Секція</section>
-        <figure>
-            <img src="https://via.placeholder.com/300x200" alt="Зображення">
-            <figcaption>Підпис до зображення</figcaption>
+    <header>Заголовок сторінки</header> <!-- Шапка сайту -->
+    <nav>Навігація</nav> <!-- Меню навігації по сайту -->
+    <main> <!-- Основний вміст сторінки -->
+        <article>Стаття</article> <!-- Окрема публікація або запис -->
+        <aside>Бічна панель</aside> <!-- Блок збоку, зазвичай для додаткової інформації -->
+        <section>Секція</section> <!-- Тематично пов’язаний розділ контенту -->
+        <figure> <!-- Блок для зображення з підписом -->
+            <img src="https://via.placeholder.com/300x200" alt="Зображення"> <!-- Зображення -->
+            <figcaption>Підпис до зображення</figcaption> <!-- Підпис до зображення -->
         </figure>
-        <details>
-            <summary>Деталі</summary>
-            <p>Додаткова інформація</p>
+        <details> <!-- Блок, який можна розгорнути/згорнути -->
+            <summary>Деталі</summary> <!-- Заголовок блоку -->
+            <p>Додаткова інформація</p> <!-- Прихований текст, що відкривається -->
         </details>
-        <audio controls><source src="audio.mp3" type="audio/mp3"></audio>
-        <video controls><source src="video.mp4" type="video/mp4"><track src="subtitles.vtt" kind="subtitles" srclang="uk"></video>
-        <canvas id="myCanvas"></canvas>
-        <dialog open>Діалог</dialog>
-        <embed src="external.swf">
-        <mark>Виділений текст</mark>
-        <meter value="0.6">60%</meter>
-        <progress value="70" max="100">70%</progress>
-        <time datetime="2025-03-30">30 березня 2025</time>
-        <template id="template">Шаблон</template>
-        <picture>
-            <source media="(min-width: 650px)" srcset="https://via.placeholder.com/400x300">
-            <img src="https://via.placeholder.com/300x200" alt="Зображення">
+        <audio controls> <!-- Відтворення аудіо з елементами керування -->
+            <source src="audio.mp3" type="audio/mp3"> <!-- Джерело аудіо -->
+        </audio>
+        <video controls> <!-- Відео з елементами керування -->
+            <source src="video.mp4" type="video/mp4"> <!-- Джерело відео -->
+            <track src="subtitles.vtt" kind="subtitles" srclang="uk"> <!-- Субтитри до відео -->
+        </video>
+        <canvas id="myCanvas"></canvas> <!-- Область для графіки, яку можна малювати за допомогою JS -->
+        <dialog open>Діалог</dialog> <!-- Відкритий діалогове вікно -->
+        <embed src="external.swf"> <!-- Вставлення зовнішнього вмісту (наприклад, Flash) -->
+        <mark>Виділений текст</mark> <!-- Виділення тексту (маркером) -->
+        <meter value="0.6">60%</meter> <!-- Візуальне представлення вимірюваного значення -->
+        <progress value="70" max="100">70%</progress> <!-- Індикатор прогресу виконання -->
+        <time datetime="2025-03-30">30 березня 2025</time> <!-- Час/дата в машинозчитуваному форматі -->
+        <template id="template">Шаблон</template> <!-- Шаблон, який не відображається до активації JS -->
+        <picture> <!-- Гнучкий елемент для адаптивних зображень -->
+            <source media="(min-width: 650px)" srcset="https://via.placeholder.com/400x300"> <!-- Зображення для великих екранів -->
+            <img src="https://via.placeholder.com/300x200" alt="Зображення"> <!-- Запасне зображення -->
         </picture>
-        <output>Результат</output>
-        <datalist id="list">
+        <output>Результат</output> <!-- Вивід результату обчислень або дій форми -->
+        <datalist id="list"> <!-- Список варіантів для input -->
             <option value="Опція 1">
             <option value="Опція 2">
         </datalist>
-        <input list="list">
-        <bdi>Текст справа наліво</bdi>
-        <wbr>ДовгеСлово
+        <input list="list"> <!-- Поле введення з підказками зі списку -->
+        <bdi>Текст справа наліво</bdi> <!-- Ізоляція напрямку тексту (для змішаних мов) -->
+        <wbr>ДовгеСлово <!-- Місце, де дозволено розрив слова -->
     </main>
-    <footer>Підвал</footer>
+    <footer>Підвал</footer> <!-- Нижній колонтитул сайту -->
 </body>
 </html>
